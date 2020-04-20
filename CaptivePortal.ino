@@ -13,7 +13,7 @@
 */
 
 #include <ESP8266WiFi.h>
-#include "./DNSServer.h"                  // Patched lib
+#include <DNSServer.h>
 #include <ESP8266WebServer.h>
 
 const byte        DNS_PORT = 53;          // Capture DNS requests on port 53
